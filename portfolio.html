@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation menu -->
+      <nav>
+        <!-- logo -->
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span> Studio</a
+        >
+
+        <!-- nav list -->
+        <ul class="list">
+          <li><a href="" class="nav-link">Студия</a></li>
+          <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+          <li><a href="" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <!-- Contact links -->
+      <ul class="list">
+        <li>
+          <!-- знак конверта можно вставить кодом: &#9993; -->
+          <a href="mailto:info@devstudio.com" class="contacts">
+            <img
+              src="images/envelope.svg"
+              alt="почтовый конверт"
+            />info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contacts">
+            <img src="images/smartphone.svg" alt="телефон" />+38 096 111 1111</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- список нвигации по мейну -->
+      <nav>
+        <ul class="list">
+          <li><a href="">Все</a></li>
+          <li><a href="#site">Веб-сайты</a></li>
+          <li><a href="#app">Приложения</a></li>
+          <li><a href="#design">Дизайн</a></li>
+          <li><a href="#marketing">Маркетинг</a></li>
+        </ul>
+      </nav>
+
+      <!-- карточки примера работ -->
+      <section>
+        <!-- невидимый заголовок h1 -->
+        <h1>Наше Портфолио</h1>
+        <ul class="list">
+          <li id="site">
+            <a href="">
+              <img
+                src="images/site-1.jpg"
+                alt="ноутбук с открытым сайтом"
+                width="370"
+              />
+              <!-- ховер на имг появляется текст: Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов. -->
+              <h2>Технокряк</h2>
+              <p>Веб-сайт</p>
+            </a>
+          </li>
+          <li id="design">
+            <a href="">
+              <img
+                src="images/poster.jpg"
+                alt="постер баскетбольного матча"
+                width="370"
+              />
+              <h2>Постер New Orlean vs Golden Star</h2>
+              <p>Дизайн</p>
+            </a>
+          </li>
+          <li id="app">
+            <a href="">
+              <img
+                src="images/seafood.jpg"
+                alt="логотип рыбного ресторана"
+                width="370"
+              />
+              <h2>Ресторан Seafood</h2>
+              <p>Приложение</p>
+            </a>
+          </li>
+          <li id="marketing">
+            <a href="">
+              <img
+                src="images/prime.jpg"
+                alt="профессиональные наушники"
+                width="370"
+              />
+              <h2>Проект Prime</h2>
+              <p>Маркетинг</p>
+            </a>
+          </li>
+          <li id="app">
+            <a href="">
+              <img
+                src="images/boxes.jpg"
+                alt="две аккуратные коробки"
+                width="370"
+              />
+              <h2>Проект Boxes</h2>
+              <p>Приложение</p>
+            </a>
+          </li>
+          <li id="site">
+            <a href="">
+              <img
+                src="images/design.jpg"
+                alt="стильное оформление программы на мониторе"
+                width="370"
+              />
+              <h2>Inspiration has no Borders</h2>
+              <p>Веб-сайт</p>
+            </a>
+          </li>
+          <li id="design">
+            <a href="">
+              <img
+                src="images/book.jpg"
+                alt="разворот иллюстрированной книги"
+                width="370"
+              />
+              <h2>Издание Limited Edition</h2>
+              <p>Дизайн</p>
+            </a>
+          </li>
+          <li id="marketing">
+            <a href="">
+              <img
+                src="images/lab.jpg"
+                alt="упаковочная бирка с названием проекта"
+                width="370"
+              />
+              <h2>Проект LAB</h2>
+              <p>Маркетинг</p>
+            </a>
+          </li>
+          <li id="app">
+            <a href="">
+              <img
+                src="images/desktop-app.jpg"
+                alt="Приложение для десктопа"
+                width="370"
+              />
+              <h2>Growing Business</h2>
+              <p>Приложение</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div>
+        <!-- невидимый заголовок н2 -->
+        <h2>наши реквизиты</h2>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span> Studio</a
+        >
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/JvwC5DnuNUBSKDE86"
+                target="_blank"
+                rel="noopener noreferrer"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="tel:+380991111111">38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+
+      <div>
+        <b>присоединяйтесь</b>
+        <ul>
+          <li>
+            <!-- aria-label="... link" вместо изображения-->
+            <a href="" target="_blank" rel="noopener noreferrer"
+              ><img src="images/instagram2.svg" alt="логотип инстаграмма"
+            /></a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer"
+              ><img src="images/twitter2.svg" alt="логотип твиттера"
+            /></a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer"
+              ><img src="images/facebook2.svg" alt="логотип фейсбука"
+            /></a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer"
+              ><img src="images/linkedin2.svg" alt="логотип линкделина"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- далее следует код-заготовка -->
+      <!-- <div>
+                <b>Подпишитесь на рассылку</b>
+                <input type="email" name="email" id="email" placeholder="E-mail" />
+                <button type="submit">
+                  Подписаться <img src="images/icon_send.svg" alt="самолетик" />
+                </button>
+              </div> -->
+    </footer>
+  </body>
+</html>

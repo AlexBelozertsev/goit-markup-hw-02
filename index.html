@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Web Studio</title>
   </head>
 
   <body>
@@ -11,21 +12,23 @@
       <!-- Navigation menu -->
       <nav>
         <!-- logo -->
-        <a href="./index.html">Web Studio</a>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span> Studio</a
+        >
 
         <!-- nav list -->
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="list">
+          <li><a href="" class="nav-link">Студия</a></li>
+          <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+          <li><a href="" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
 
       <!-- Contact links -->
-      <ul>
+      <ul class="list">
         <li>
           <!-- знак конверта можно вставить кодом: &#9993; -->
-          <a href="mailto:info@devstudio.com">
+          <a href="mailto:info@devstudio.com" class="contacts">
             <img
               src="images/envelope.svg"
               alt="почтовый конверт"
@@ -33,7 +36,7 @@
           >
         </li>
         <li>
-          <a href="tel:+380961111111">
+          <a href="tel:+380961111111" class="contacts">
             <img src="images/smartphone.svg" alt="телефон" />+38 096 111 1111</a
           >
         </li>
@@ -52,7 +55,7 @@
       <section>
         <!-- невидимый заголовок н2 -->
         <h2>Наши достоинства</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="images/antenna1.svg" alt="спутниковая антена" />
             <h3>Внимание к деталям</h3>
@@ -97,7 +100,7 @@
       <!-- our developments -->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="images/desktop.jpg" alt="ноутбук" width="370" />
             <h3>Десктопные приложения</h3>
@@ -120,7 +123,7 @@
       <!-- our team -->
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="images/Product_Designer.jpg"
@@ -266,7 +269,7 @@
       <!-- our clients -->
       <section>
         <h2>Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="" target="_blank" rel="noopener noreferrer"
               ><img src="images/logo1.svg" alt="логотип компании"
@@ -306,17 +309,28 @@
       <div>
         <!-- невидимый заголовок н2 -->
         <h2>наши реквизиты</h2>
-        <a href="./index.html">Web Studio</a>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span> Studio</a
+        >
         <address>
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          <a href="mailto:info@example.com">info@example.com</a><br />
-          <a href="tel:+380991111111">38 099 111 11 11</a><br />
+          <ul class="list">
+            <li>
+              <a
+                href="https://goo.gl/maps/JvwC5DnuNUBSKDE86"
+                target="_blank"
+                rel="noopener noreferrer"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="tel:+380991111111">38 099 111 11 11</a></li>
+          </ul>
         </address>
       </div>
 
       <div>
         <b>присоединяйтесь</b>
-        <ul>
+        <ul class="list">
           <li>
             <!-- aria-label="... link" вместо изображения-->
             <a href="" target="_blank" rel="noopener noreferrer"
