@@ -1,6 +1,6 @@
-/* основной цвет текста - #000000 */
+/* цвет текста логотипа - #000000 *
+/* основной цвет текста - #212121 */
 /* дополнительный цвет текста - #757575 */
-/* цвет текста меню портфолио - #212121 */
 /* выделенный цвет текста - #FFFFFF*/
 /* выделенный цвет текста - #2196F3*/
 /* цвет текста в адресе и инпуте - rgba(255, 255, 255, 0.6)*/
@@ -21,12 +21,12 @@
 
 /*кастомные css свойства*/
 :root {
-  --primary-text-color: #000000;
+  --logo-text-color: #000000;
+  --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --third-color: #ffffff;
   --fourth-text-color: rgba(255, 255, 255, 0.6);
   --accent-text-color: #2196f3;
-  --portfolio-tx-clr: #212121;
 
   --first-background-color: rgba(47, 48, 58, 0.8);
   --second-background-color: #f5f4fa;
@@ -69,14 +69,14 @@ h4 {
   background-color: var(--accent-text-color);
   font-family: inherit;
   font-weight: 700;
-  font-size: 16px;
+  font-size: inherit;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
   align-items: center;
 }
 .button.menu {
-  color: var(--portfolio-tx-clr);
+  color: var(--primary-text-color);
   background-color: var(--second-background-color);
   font-weight: 500;
   line-height: 1.62;
@@ -91,21 +91,18 @@ h4 {
 
 /*logo*/
 .logo {
-  color: var(--primary-text-color);
+  color: var(--logo-text-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
 }
-/*"web" + nav& contacts& personal-page& footer-links hovers*/
+/*"web" + nav & contacts hovers*/
 .logo-web,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current,
 .contacts:hover,
-.contacts:focus .personal-page:hover,
-.personal-page:focus,
-.footer-links:focus,
-.footer-links:hover {
+.contacts:focus {
   color: var(--accent-text-color);
 }
 
@@ -128,7 +125,6 @@ h4 {
 .contacts {
   color: var(--secondary-text-color);
 }
-
 /*.contacts:hover,
 .contacts:focus {
   color: var(--accent-text-color);
@@ -199,7 +195,6 @@ h4 {
   text-align: center;
 }*/
 .team-card {
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   background-color: var(--third-color);
@@ -211,10 +206,10 @@ h4 {
 .team-card .text {
   line-height: 1.19;
 }
-/*.personal-page:hover,
+.personal-page:hover,
 .personal-page:focus {
   background-color: var(--accent-text-color);
-}*/
+}
 
 /*our clients*/
 /*.client-title {
@@ -247,10 +242,10 @@ h4 {
 .footer-links {
   background-color: var(--footer-backgrpund-item-color);
 }
-/*.footer-links:focus,
+.footer-links:focus,
 .footer-links:hover {
   background-color: var(--accent-text-color);
-}*/
+}
 
 /*portfolio*/
 .portfolio-card:hover,
@@ -258,7 +253,6 @@ h4 {
   box-shadow: var(--card-shadow-hover);
 }
 .portfolio-title {
-  color: var(--portfolio-tx-clr);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
