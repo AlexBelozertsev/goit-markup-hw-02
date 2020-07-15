@@ -253,6 +253,7 @@ h4 {
   box-shadow: var(--card-shadow-hover);
 }
 .portfolio-title {
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
